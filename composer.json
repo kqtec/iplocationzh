@@ -9,6 +9,11 @@
             "email": "zhch92@qq.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Kqtec\\IpLocationZh\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
