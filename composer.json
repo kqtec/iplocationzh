@@ -1,0 +1,14 @@
+{
+    "name": "kqtec/iplocationzh",
+    "description": "基于纯真IP库的,查询IP归属地PHP库，获取客户端ip地址",
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "zhch92",
+            "email": "zhch92@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
