@@ -1,4 +1,5 @@
-<?php namespace Kqtec\IpLocationZh;
+<?php
+namespace Kqtec\IpLocationZh;
 
 use Exception;
 
@@ -28,10 +29,6 @@ class Ip
      */
     public static function find($ip)
     {
-        if ($ip=="127.0.0.1") {
-            return false;
-        }
-
         if (empty($ip) === true) {
             return false;
         }

@@ -4,7 +4,7 @@
 # Usage
 ```
 require 'vendor/autoload.php';  
-use Kqtec\iplocationzh\Ip;  
+use Kqtec\IpLocationZh\Ip;  
 $add=Ip::get_real_ip()?:'171.12.10.156'
 var_dump(Ip::find($add));
 ```
